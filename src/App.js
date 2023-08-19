@@ -8,6 +8,7 @@ import OurBestSellers from './components/OurBestSellers';
 import Ingridients from './components/Ingridients';
 import JournalSection from './components/JournalSection';
 import BsText from './components/BsText';
+import Login from './components/Login';
 import { Route, Routes } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 import SinglePage from "./components/SinglePage";
@@ -38,6 +39,7 @@ function App() {
           <Route path='/under40' element={<> <NavBar />  <Under10 /> </>} />
           <Route path='/forher' element={<> <NavBar />  <ForHer /> </>} />
           <Route path='/forhim' element={<> <NavBar />  <ForHim /> </>} />
+          <Route path='/login' element={<> <NavBar /> <Login /> </>} />
         </Routes>
 
       </BrowserRouter>
